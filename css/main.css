@@ -1,0 +1,49 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* start heading */
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .container .logo a {
+  color: #30bf30;
+  font-size: 30px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.header .container .logo a:hover {
+  color: #126c12;
+}
+
+.header .container nav ul{
+    display: flex;
+}
+
+.header .container nav ul li{
+    padding-left: 10px;
+}
+/* end heading */
